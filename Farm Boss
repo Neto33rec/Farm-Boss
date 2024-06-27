@@ -41,7 +41,7 @@ local bossButton = Instance.new("TextButton")
 bossButton.Position = UDim2.new(0.8, 0, 0.45, 0)
 bossButton.Size = UDim2.new(0, 150, 0, 35)
 bossButton.Parent = gui
-bossButton.Text = "Ai neymar"
+bossButton.Text = "Boss Farm"
 bossButton.BackgroundColor3 = Color3.fromRGB(0, 120, 255)  -- Azul
 bossButton.Font = Enum.Font.SourceSansBold
 bossButton.TextSize = 18  -- Aumente o tamanho da fonte
@@ -51,7 +51,7 @@ local lobbyButton = Instance.new("TextButton")
 lobbyButton.Position = UDim2.new(0.8, 0, 0.55, 0)
 lobbyButton.Size = UDim2.new(0, 150, 0, 35)
 lobbyButton.Parent = gui
-lobbyButton.Text = "começar partida"
+lobbyButton.Text = "Lobby"
 lobbyButton.BackgroundColor3 = Color3.fromRGB(0, 120, 255)  -- Azul
 lobbyButton.Font = Enum.Font.SourceSansBold
 lobbyButton.TextSize = 20  -- Aumente o tamanho da fonte
@@ -118,7 +118,7 @@ button.TextColor3 = Color3.new(1, 1, 1)
 button.Parent = gui
 
 local startTime = tick()
-local duration = 5  -- Tempo total para a GUI desaparecer (em segundos)
+local duration = 2  -- Tempo total para a GUI desaparecer (em segundos)
 
 local function fadeOut()
     local elapsedTime = tick() - startTime
